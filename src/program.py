@@ -177,7 +177,7 @@ energy_cascade_dataframe = get_energy_cascade_dataframe(steps, Q_liq, Q_in_list,
 plot_great_composite_curve(T_list_great_composite_curve, Q_list_great_composite_curve, path_to_output_dir)
 plot_composite_curve(hot_Q, hot_T, cold_Q, cold_T, path_to_output_dir)
 
-with open(r"/home/pedromachado/Documents/Faculdade/Aplicações Computacionais/energy_analysis_calculator/assets/output.txt", "w") as f:
+with open(path.join(path_to_output_dir, "output.txt"), "w") as f:
     f.write("Results for the given streams")
     f.write(f"\n\nMin hot utility consumption: {min_hot_utility} kW")
     f.write(f"\nMin cold utility consumption: {min_cold_utility} kW")
