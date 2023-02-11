@@ -1,0 +1,19 @@
+Results for the given streams
+
+Min hot utility consumption: 95.0 kW
+Min cold utility consumption: 85.0 kW
+Hot pinch: 145.0 °C
+Cold pinch: 130 °C
+NHE without pinch: 5
+NHE with pinch: 7
+
+Energy Cascade
+
+HotInterval ColdInterval  Qliq  Qin1  Qout1  Qin2  Qout2
+  205.0-250    190-235.0  45.0   0.0   45.0  95.0  140.0
+  200-205.0    185.0-190 -25.0  45.0   20.0 140.0  115.0
+  165.0-200    150-185.0 -35.0  20.0  -15.0 115.0   80.0
+145.0-165.0      130-150 -80.0 -15.0  -95.0  80.0    0.0
+  120-145.0    105.0-130  50.0 -95.0  -45.0   0.0   50.0
+  105.0-120     90-105.0  15.0 -45.0  -30.0  50.0   65.0
+  100-105.0      85.0-90  20.0 -30.0  -10.0  65.0   85.0
